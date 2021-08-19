@@ -1,0 +1,52 @@
+body {
+    background: green;
+}
+
+.card{
+    background: white;
+    margin: auto;
+    height: 391px;
+    width: 271px;
+    border-radius: 13px;
+}
+
+.card:before {
+    margin-left: 10px;
+}
+
+.card:after {
+    padding: 197px;
+}
+
+.number {
+    font-size: 141px;
+    text-align: center;
+}
+
+.card.hearts:before,
+.card.hearts:after {
+    content: "♥";
+    font-size: 95px;
+    color: red;
+}
+
+.card.spades:before,
+.card.spades:after {
+    content: "♠";
+    font-size: 95px;
+    color: black;
+}
+
+.card.diamonds:before,
+.card.diamonds:after {
+    content: "♦";
+    font-size: 95px;
+    color: red;
+}
+
+.card.clubs:before,
+.card.clubs:after {
+    content: "♣";
+    font-size: 95px;
+    color: black;
+}
